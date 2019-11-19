@@ -1,0 +1,4 @@
+#Mon Oct 28 17:31:28 EDT 2019
+base.0=/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 11/firebase/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
