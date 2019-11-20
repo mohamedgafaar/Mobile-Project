@@ -1,8 +1,5 @@
-body{
-background-image: center;
 
-}
-.logo{
+.LogoDiv img{
     border-radius: 50%;
     position: center;
 }
