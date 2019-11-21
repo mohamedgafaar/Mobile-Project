@@ -1,72 +1,44 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-        
-        <title>Firebase Example</title>
-    </head>
 
-    <body>
-        <div id="register">
-            <h1>Register!</h1>
-            <div>
-                <input type="email" id="register-email-input" placeholder="email">
-                <br />
-                <input type="password" id="register-password-input" placeholder="password">
-                <br />
-                <button id="register-button">Register</button>
-            </div>
-        </div>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
 
-        <div id="login">
-            <h1>Login!</h1>
-            <div>
-                <input type="email" id="login-email-input" placeholder="email">
-                <br />
-                <input type="password" id="login-password-input" placeholder="password">
-                <br />
-                <button id="login-button">Login</button>
-            </div>
-        </div>
 
-        <div id="main-page">
-            Logged In Content
-            <div>
-                <textarea id="some-data-textarea"></textarea>
-                <button id="save-data-button">Save</button>
-            </div>
-            <br />
-            <button id="signout-button">Logout</button>
-        </div>
+    <link rel="stylesheet" href="res/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
 
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-        <script src="js/firebase/firebase-app.js"></script>
+    <title>Fianl Project-Main Page</title>
+</head>
 
-        <!-- TODO: Add SDKs for Firebase products that you want to use -->
-        <script src="js/firebase/firebase-auth.js"></script>
-        <script src="js/firebase/firebase-database.js"></script>
-        <script src="js/firebase/firebase-firestore.js"></script>
+<body>
 
-        <script>
-            // Your web app's Firebase configuration
-            var firebaseConfig = {
-                apiKey: "AIzaSyCrAVxCmWUxMLIFJQPDtX2SzNvGwRGpMVE",
-                authDomain: "phonegap-app-cceea.firebaseapp.com",
-                databaseURL: "https://phonegap-app-cceea.firebaseio.com",
-                projectId: "phonegap-app-cceea",
-                storageBucket: "phonegap-app-cceea.appspot.com",
-                messagingSenderId: "384733845734",
-                appId: "1:384733845734:web:3722dc687910f15d7d8327"
-            };
-            // Initialize Firebase
-            var app = firebase.initializeApp(firebaseConfig);
-        </script>
 
-        <script src="cordova.js"></script>
-        <script src="js/index.js"></script>
-    </body>
+
+<div>
+    oleksandr lemishka
+</div>
+
+
+<div>
+    sasha 2
+</div>
+
+<div>
+    Moe Abdalla
+</div>
+
+<button class="btn-danger btn-lg">test</button>
+
+
+<script src="js/jquery/dist/jquery.min.js"></script>
+<script src="res/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
+</body>
+
 </html>
