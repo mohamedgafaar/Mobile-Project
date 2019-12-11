@@ -1,0 +1,73 @@
+div#header {
+    color: pink;
+}
+
+.form-control {
+    width: 70%;
+    margin-left: 20px;
+    border-radius: 1.25rem;
+    font-size: 2rem;
+}
+
+.formLabels {
+    margin-left: 5px;
+    padding: 2px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.formElements {
+    margin-left: 5px;
+    padding: 2px;
+}
+
+#header h1{
+    margin-top: 10px;
+    text-align-last: center;
+    color: #ff6199
+}
+
+.radioButtonClass{
+    display: inline;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+input.radioButtonClass {
+    margin-left: 10px;
+  
+}
+
+textarea.radioButtonClass {
+    margin-left: 10px;
+    border-radius: 1.25rem;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+    background: #ff6199;
+    color: black;
+}
+
+#backBtn {
+    margin-left: 25px;
+    color: #0981ff;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+#submitBtn {
+    margin-left: 200px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+textarea {
+    resize: none;
+}

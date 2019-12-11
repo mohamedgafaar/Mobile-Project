@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" href="res/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/patient.css">
+
+    <title>Patient Profile</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1> Patient Profile</h1>
+    </div>
+    <hr>
+
+    <div id="form" class="formElements">
+
+        <form>
+            <label for="patientName" class="formLabels">Full Name</label>
+            <input type="text" id="patientName" class="form-control" >
+            <br>
+            <label for="patientAddress" class="formLabels">Address</label>
+            <input type="text" id="patientAddress" class="form-control">
+            <br>
+            <label for="patientPhone" class="formLabels">Phone Number</label>
+            <input type="text" id="patientPhone" class="form-control">
+
+            <br><br>
+            <label for="" class="formLabels">Gender</label><br>
+            <input type="radio" name="gender" value="male" class="radioButtonClass">
+            <label for="gender" value="male" class="radioButtonClass">Male</label>
+            <input type="radio" name="gender" value="female" class="radioButtonClass">
+            <label for="gender" value="female" class="radioButtonClass">Female</label>
+            <br><br>
+
+            <br>
+            <label for="maritalStatus" class="formLabels">Marital Status</label><br>
+            <input type="radio" name="maritalStatus" value="Single" class="radioButtonClass">
+            <label for="single" value="single" class="radioButtonClass">Single</label>
+            <input type="radio" name="maritalStatus" value="Married" class="radioButtonClass">
+            <label for="married" value="married" class="radioButtonClass">Married</label>
+            <input type="radio" name="maritalStatus" value="Single" class="radioButtonClass">
+            <label for="divorced" value="divorced" class="radioButtonClass">Divorced</label>
+            <br><br><br> 
+
+            <label for="healthDesc" class="formLabels">Health Description</label><br>
+            <textarea name="healthDesc" cols="55" rows="10" class="radioButtonClass"></textarea>
+
+            <br><br>
+
+            <label for="emergencyContact" class="formLabels">Emergency Contact</label><br>
+            <input type="text" id="emergencyContact" class="form-control"> <br><br>
+
+        </form>
+
+        <button type="button" class="btn btn-outline-primary" id="backBtn">Back</button>
+        <button type="button" class="btn btn-outline-primary" id="submitBtn">SUBMIT</button>
+
+    </div>
+
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="res/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
