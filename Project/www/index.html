@@ -25,42 +25,44 @@
     <link rel="stylesheet" href="res/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
 
-    <title>Fianl Project-Main Page</title>
+    <title>Med App</title>
 </head>
 
 <body>
+<!--firbase SDK-->
+<script src="js/firebase/firebase-app.js"></script>
+<script src="js/firebase/firebase-auth.js"></script>
+<script src="js/config.js"></script>
 
-    <!-- logo-->
+<!-- logo-->
     <div class="container">
         <img src="img/1.jpg" class="img-circle" alt="logo">
     </div>
 
     <!-- login-->
     <div class="form-group">
-        <label for="usr">Name:</label>
-        <input type="text" class="form-control" id="register-email-input">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="register-password-input">
+
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email">
+        <label for="pswd">Password:</label>
+        <input type="password" class="form-control" id="pswd">
     </div>
 
     <!-- Button-->
     <div class="button">
-        <button type="button" id="signin" class="btn btn-primary">Sign Up</button>
-       <a href="MainPage.html" ><button type="button" id="signup" class="btn btn-primary">login</button> </a>
+
+        <button type="button" class="btn btn-primary" id="signUp">Sign Up</button>
+        <button type="button" class="btn btn-primary" id="login">login</button>
     </div>
-    <!--Icons-->
-    <div class="icons">
+
 
         <img src="img/Facebook.png" id="icaon" class="img-circle" alt="icon" title="Facbook Login">
         <img src="img/google.png" id="icaon" class="img-circle" alt="icon" title="Google login">
 
 
-    </div>
-
-    <script src="js/jquery/dist/jquery.min.js"></script>
-    <script src="res/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="cordova.js"></script>
-    <script src="js/index.js"></script>
+<script src="js/jquery/dist/jquery.min.js"></script>
+<script src="res/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
 </body>
-
 </html>
