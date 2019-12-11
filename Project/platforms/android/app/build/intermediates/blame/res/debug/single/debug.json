@@ -208,12 +208,12 @@
         "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 11/firebase/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
     },
     {
-        "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 6/geolocation/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat",
-        "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 6/geolocation/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
-    },
-    {
         "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/camera/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
         "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/camera/platforms/android/app/src/main/res/xml/config.xml"
+    },
+    {
+        "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 6/geolocation/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat",
+        "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 6/geolocation/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
     },
     {
         "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/media/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_next_item.png.flat",
@@ -256,20 +256,20 @@
         "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 11/firebase/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
     },
     {
-        "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/camera/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_remove.png.flat",
-        "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/camera/platforms/android/app/src/main/res/drawable-xxhdpi/ic_action_remove.png"
-    },
-    {
         "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/camera/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_previous_item.png.flat",
         "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/camera/platforms/android/app/src/main/res/drawable-mdpi/ic_action_previous_item.png"
     },
     {
-        "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/media/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
-        "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/media/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
+        "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/camera/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/camera/platforms/android/app/src/main/res/drawable-xxhdpi/ic_action_remove.png"
     },
     {
         "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 2/dialogs/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_remove.png.flat",
         "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 2/dialogs/platforms/android/app/src/main/res/drawable-hdpi/ic_action_remove.png"
+    },
+    {
+        "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/media/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
+        "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/media/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
     },
     {
         "merged": "/Users/oleksandrlemishka/Desktop/COLLEGE/Semester3/Mobile_dev/Group_project/Mobile-Project/Project/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
@@ -364,16 +364,16 @@
         "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 4/media/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
     },
     {
-        "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 11/firebase/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_previous_item.png.flat",
-        "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 11/firebase/platforms/android/app/src/main/res/drawable-mdpi/ic_action_previous_item.png"
+        "merged": "/Users/oleksandrlemishka/Desktop/COLLEGE/Semester3/Mobile_dev/Group_project/Mobile-Project/Project/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
+        "source": "/Users/oleksandrlemishka/Desktop/COLLEGE/Semester3/Mobile_dev/Group_project/Mobile-Project/Project/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
     },
     {
         "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 6/geolocation/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_previous_item.png.flat",
         "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 6/geolocation/platforms/android/app/src/main/res/drawable-mdpi/ic_action_previous_item.png"
     },
     {
-        "merged": "/Users/oleksandrlemishka/Desktop/COLLEGE/Semester3/Mobile_dev/Group_project/Mobile-Project/Project/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
-        "source": "/Users/oleksandrlemishka/Desktop/COLLEGE/Semester3/Mobile_dev/Group_project/Mobile-Project/Project/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
+        "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 11/firebase/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 11/firebase/platforms/android/app/src/main/res/drawable-mdpi/ic_action_previous_item.png"
     },
     {
         "merged": "/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 11/firebase/platforms/android/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
