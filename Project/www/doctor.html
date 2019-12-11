@@ -11,30 +11,29 @@
     <meta name="viewport"
         content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <link rel="stylesheet" href="res/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/patient.css">
+    <link rel="stylesheet" href="css/doctor.css">
 
-    <title>Patient Profile</title>
+    <title>Doctor Profile</title>
 </head>
 
 <body>
     <div id="header">
-        <h1> Patient Profile</h1>
+        <h1> Doctor Profile</h1>
     </div>
     <hr>
 
-    <div id="form" class="formElements">
-
-        <form>
-            <label for="patientName" class="formLabels">Full Name</label>
-            <input type="text" id="patientName" class="form-control" >
+    <div id="form" class="formLabels">
+        <form action="">
+            <label for="doctorName" class="formLabels">Full Name</label>
+            <input type="text" id="doctorName" class="form-control">
             <br>
-            <label for="patientAddress" class="formLabels">Address</label>
-            <input type="text" id="patientAddress" class="form-control">
+            <label for="doctorAddress" class="formLabels">Address</label>
+            <input type="text" id="doctorAddress" class="form-control">
             <br>
-            <label for="patientPhone" class="formLabels">Phone Number</label>
-            <input type="text" id="patientPhone" class="form-control">
-
+            <label for="doctorPhone" class="formLabels">Phone Number</label>
+            <input type="text" id="doctorPhone" class="form-control">
             <br><br>
+
             <label for="" class="formLabels">Gender</label><br>
             <input type="radio" name="gender" value="male" class="radioButtonClass">
             <label for="gender" value="male" class="radioButtonClass">Male</label>
@@ -42,24 +41,21 @@
             <label for="gender" value="female" class="radioButtonClass">Female</label>
             <br><br>
 
-            <br>
-            <label for="maritalStatus" class="formLabels">Marital Status</label><br>
-            <input type="radio" name="maritalStatus" value="Single" class="radioButtonClass">
-            <label for="single" value="single" class="radioButtonClass">Single</label>
-            <input type="radio" name="maritalStatus" value="Married" class="radioButtonClass">
-            <label for="married" value="married" class="radioButtonClass">Married</label>
-            <input type="radio" name="maritalStatus" value="Single" class="radioButtonClass">
-            <label for="divorced" value="divorced" class="radioButtonClass">Divorced</label>
-            <br><br><br> 
-
-            <label for="healthDesc" class="formLabels">Health Description</label><br>
-            <textarea name="healthDesc" cols="55" rows="10" class="radioButtonClass"></textarea>
-
+            <label for="" class="formLabels">Age</label>
+            <input type="text" name="" class="form-control" id="ageText">
             <br><br>
-
-            <label for="emergencyContact" class="formLabels">Emergency Contact</label><br>
-            <input type="text" id="emergencyContact" class="form-control"> <br><br>
-
+            <label for="" class="formLabels">Doctor Type</label>
+            <select name="docType" class="form-control" id="doctypeSelect">
+                <option value="Oncologist">Oncologist</option>
+                <option value="Physician">Physician</option>
+                <option value="Pediatrician">Pediatrician</option>
+                <option value="Gynaecologist">Gynaecologist</option>
+                <option value="Surgeon">Surgeon</option>
+                <option value="Psychiatrist">Psychiatrist</option>
+                <option value="Cardiologist">Cardiologist</option>
+                <option value="Dermatologist">Dermatologist</option>
+            </select>
+<br><br><br>
         </form>
 
         <button type="button" class="btn btn-outline-primary" id="backBtn">Back</button>

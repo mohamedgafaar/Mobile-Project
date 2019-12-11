@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" href="res/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/patient.css">
+
+    <title>Patient Profile</title>
+</head>
+
+<body>
+    <div id="header">Patient Profile</div>
+    <hr>
+
+    <div id="form" class="formElements">
+        <label for="patientName" class="formLabels">Full Name</label>
+        <input type="text" id="patientName" class="form-control" placeholder="@mail.com">
+        <br>
+        <label for="patientAddress" class="formLabels">Address</label>
+        <input type="text" id="patientAddress" class="form-control">
+        <br>
+        <label for="patientPhone" class="formLabels">Address</label>
+        <input type="text" id="patientAddress" class="form-control">
+
+        <label for="gender" class="formLabels"> Gender </label>
+        <input type="radio" name="gender" value="male" class=""> Male<br>
+        <input type="radio" name="gender" value="female" class=""> Female<br>
+
+        <label for="maritalStatus" class="formLabels">Marital Status</label>
+        <input type="radio" name="maritalStatus" value="Single"> Single<br>
+        <input type="radio" name="maritalStatus" value="Married"> Married<br>
+        <input type="radio" name="maritalStatus" value="Single"> Divorced<br>
+
+        <label for="healthDesc" class="formLabels">Health Description</label>
+        <textarea name="healthDesc"  cols="30" rows="10"></textarea>
+
+        <label for="emergencyContact" class="formLabels">Emergency Contact</label>
+        <input type="text" id="emergencyContact">
+
+        <button type="button" class="btn btn-outline-primary">Back</button>
+        <button type="button" class="btn btn-outline-primary">Submit</button>
+
+    </div>
+
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="res/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
