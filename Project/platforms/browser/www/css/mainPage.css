@@ -1,0 +1,33 @@
+
+.MainDiv {
+    margin: 10% 0 0 0;
+}
+
+h2 {
+    margin: 7% 0 6% 34%;
+}
+
+#checkboxDiv {
+    margin: 7% 0 7% 5%;
+}
+
+.cameraDiv {
+    margin: 5% 0 9% 6%;
+    font-size: 10%;
+}
+
+.container {
+    margin: -1% 0% 2% 0%;
+}
+
+.SerachDiv {
+    margin: 8% 0 14% 7%;
+}
+
+.emergencyDiv {
+    margin: -6% 6% 0% 7%;
+}
+
+label {
+    font-size: 140%;
+}
